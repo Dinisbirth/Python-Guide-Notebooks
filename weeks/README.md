@@ -4,7 +4,10 @@ This folder contains the main study path for the repository.
 
 Each week folder includes:
 - `README.md`
-- `notebook.ipynb`
+- `notebooks/notebook.ipynb`
+- `answers/README.md`
+
+Open each week's `README.md` first, then use the notebook and answer notes inside that folder.
 
 ## Index
 

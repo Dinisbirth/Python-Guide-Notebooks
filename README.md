@@ -18,6 +18,13 @@ ct7201-guide/
 |-- data/
 |-- src/
 `-- weeks/
+    |-- README.md
+    `-- week-xx-topic/
+        |-- README.md
+        |-- answers/
+        |   `-- README.md
+        `-- notebooks/
+            `-- notebook.ipynb
 ```
 
 ## How To Use This Repository
@@ -37,8 +44,9 @@ jupyter lab
 3. Open the folders in `weeks/` in order.
 
 Each week folder contains:
-- `README.md` with the week summary and tasks
-- `notebook.ipynb` with the runnable material
+- `README.md` with the week overview
+- `notebooks/` with the runnable notebook
+- `answers/` with the notes, tasks, and worked guidance
 
 ## Weekly Guide
 
@@ -60,8 +68,8 @@ Each week folder contains:
 ## Data
 
 The datasets used in the later weeks live in [data](data):
-- California housing datasets
-- Framingham cardiovascular dataset
+- `housing.csv` for exploratory analysis and preprocessing
+- `framingham.csv` for classification practice
 
 ## Code
 
