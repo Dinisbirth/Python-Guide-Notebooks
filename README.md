@@ -16,6 +16,8 @@ ct7201-guide/
 |-- README.md
 |-- requirements.txt
 |-- data/
+|   |-- housing.csv
+|   `-- framingham.csv
 |-- src/
 `-- weeks/
     |-- README.md
