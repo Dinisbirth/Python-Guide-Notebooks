@@ -1,103 +1,76 @@
-# CT7201 Python Guide Notebooks
+# Python Guide Notebooks
 
-This repository is a cleaned, GitHub-ready study guide built from the supplied lecture slides, PDFs, datasets, starter code, and student notebooks for Python Notebooks and Scripting.
+A clean, GitHub-ready notebook repository for Python, data analysis, preprocessing, and introductory machine learning.
 
-## Repository Structure
+This repository is intentionally minimal. It keeps only the material needed to study and run the notebooks:
+- `weeks/` for the main learning path
+- `data/` for the datasets used in the notebooks
+- `src/` for reusable helper code
 
-- `weeks/`: the main learning path, one folder per week
-- `docs/`: roadmap and dataset notes
-- `data/`: canonical dataset copies used by the notebooks
-- `src/`: reusable Python helpers
-- `references/course_materials/`: archived lecture materials and extracted text
-- `references/student_work/`: archived student notebooks and extracted text
-
-## What Is Included
-
-- 12 structured weekly folders
-- a `summary.md`, `tasks.md`, and `notebook.ipynb` in every week
-- executed notebooks checked locally for runtime errors
-- a cleaned `Stats` helper in `src/stats.py`
-- de-duplicated source archives instead of repeated copies across multiple week folders
+Archive-style source folders were removed from the main repository so the GitHub view stays clean and focused.
 
 ## Repository Layout
 
 ```text
 ct7201-guide/
 |-- README.md
-|-- ATTRIBUTION.md
-|-- .gitattributes
 |-- requirements.txt
 |-- data/
-|-- docs/
-|-- references/
 |-- src/
 `-- weeks/
 ```
 
-## Weekly Roadmap
+## How To Use This Repository
 
-| Week | Topic | Focus |
-| --- | --- | --- |
-| 01 | Jupyter and Python Fundamentals | Notebooks, Markdown, variables, and basic Python types |
-| 02 | Functions, Control Flow, and Loops | Functions, operators, conditionals, and loop-based problem solving |
-| 03 | Collections and Strings | Lists, slicing, string operations, and practice tasks |
-| 04 | Dictionaries and Nested Data | Dictionaries, sets, tuples, and structured records |
-| 05 | Input, While Loops, and OOP | Input validation, loops, classes, and objects |
-| 06 | Standard Library and Environments | Built-ins, modules, conda, and pip |
-| 07 | Scripts, Modules, and Third-Party Libraries | `.py` files, imports, pandas, and reusable helpers |
-| 08 | Data Analysis Basics | Dataset inspection, profiling, plotting, and train/test splitting |
-| 09 | Correlation, Feature Engineering, and Imputation | Signal analysis, engineered features, and missing-value handling |
-| 10 | Data Preprocessing Pipelines | Encoding, scaling, custom transformers, and pipelines |
-| 11 | Introduction to Machine Learning | Classification, regression, and clustering basics |
-| 12 | Applied Machine Learning Capstone | End-to-end regression and classification mini-projects |
-
-## Quick Start
-
-1. Create and activate a Python environment.
-2. Install the requirements:
+1. Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Start Jupyter from the repository root:
+2. Start Jupyter from the repository root:
 
 ```bash
 jupyter lab
 ```
 
-4. Work through the folders in `weeks/` in order.
+3. Open the folders in `weeks/` in order.
 
-## Folder Notes
+Each week folder contains:
+- `README.md` with the week summary and tasks
+- `notebook.ipynb` with the runnable material
 
-### `weeks/`
-Each week contains:
-- `summary.md`
-- `tasks.md`
-- `notebook.ipynb`
+## Weekly Guide
 
-### `docs/`
-Contains:
-- `course_roadmap.md`
-- `housing_dataset.md`
-- `framingham_dataset.md`
+| Week | Topic | Folder |
+| --- | --- | --- |
+| 01 | Jupyter and Python Fundamentals | [weeks/week-01-jupyter-basics](weeks/week-01-jupyter-basics) |
+| 02 | Functions, Control Flow, and Loops | [weeks/week-02-functions-and-loops](weeks/week-02-functions-and-loops) |
+| 03 | Collections and Strings | [weeks/week-03-collections-and-strings](weeks/week-03-collections-and-strings) |
+| 04 | Dictionaries and Nested Data | [weeks/week-04-dictionaries-and-data](weeks/week-04-dictionaries-and-data) |
+| 05 | Input, While Loops, and OOP | [weeks/week-05-input-loops-and-oop](weeks/week-05-input-loops-and-oop) |
+| 06 | Standard Library and Environments | [weeks/week-06-standard-library](weeks/week-06-standard-library) |
+| 07 | Scripts, Modules, and Third-Party Libraries | [weeks/week-07-scripts-and-libraries](weeks/week-07-scripts-and-libraries) |
+| 08 | Data Analysis Basics | [weeks/week-08-data-analysis-basics](weeks/week-08-data-analysis-basics) |
+| 09 | Correlation, Feature Engineering, and Imputation | [weeks/week-09-feature-engineering-and-imputation](weeks/week-09-feature-engineering-and-imputation) |
+| 10 | Data Preprocessing Pipelines | [weeks/week-10-preprocessing-pipelines](weeks/week-10-preprocessing-pipelines) |
+| 11 | Introduction to Machine Learning | [weeks/week-11-intro-to-machine-learning](weeks/week-11-intro-to-machine-learning) |
+| 12 | Applied Machine Learning Capstone | [weeks/week-12-capstone-projects](weeks/week-12-capstone-projects) |
 
-### `data/`
-This is the canonical location for datasets used by the notebooks. The reference archive no longer repeats those dataset files week after week.
+## Data
 
-### `references/`
-The reference archive is split into:
-- `course_materials/` for lecture and tutorial source files
-- `student_work/` for the original notebook work that informed the cleaned version
+The datasets used in the later weeks live in [data](data):
+- California housing datasets
+- Framingham cardiovascular dataset
 
-## Important Note On Weeks 8-12
+## Code
 
-The later supplied files were mostly topic-based (`Data Analysis`, `Data Handling`, `Intro to ML`) rather than clearly labelled by exact week number. Weeks 8-12 in this repository were therefore organised by topic progression inferred from those materials so the course remains coherent from start to finish.
+Reusable helper code lives in [src](src), including [src/stats.py](src/stats.py).
+
+## Note On Weeks 8-12
+
+The later supplied teaching materials were topic-based rather than clearly labelled by exact week. Weeks 8-12 in this repository were organised into a clean progression so the course reads properly from start to finish.
 
 ## Verification
 
-The generated notebooks were executed locally after creation and checked for notebook cell errors.
-
-## Attribution
-
-This repository reorganises and supplements the supplied teaching materials for study use. See `ATTRIBUTION.md` and the `references/` folder for source tracking.
+The notebooks were executed locally and checked for notebook cell errors after generation.
