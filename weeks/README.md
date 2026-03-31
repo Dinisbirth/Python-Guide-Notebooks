@@ -1,0 +1,13 @@
+# Weeks
+- `week_01_jupyter_and_python_fundamentals`: Jupyter and Python Fundamentals
+- `week_02_functions_control_flow_and_loops`: Functions, Control Flow, and Loops
+- `week_03_collections_and_strings`: Collections and Strings
+- `week_04_dictionaries_and_nested_data`: Dictionaries and Nested Data
+- `week_05_input_while_loops_and_oop`: Input, While Loops, and OOP
+- `week_06_standard_library_and_environments`: Standard Library and Environments
+- `week_07_scripts_modules_and_third_party_libraries`: Scripts, Modules, and Third-Party Libraries
+- `week_08_data_analysis_basics`: Data Analysis Basics
+- `week_09_correlation_feature_engineering_and_imputation`: Correlation, Feature Engineering, and Imputation
+- `week_10_data_preprocessing_pipelines`: Data Preprocessing Pipelines
+- `week_11_intro_to_machine_learning`: Introduction to Machine Learning
+- `week_12_applied_machine_learning_capstone`: Applied Machine Learning Capstone

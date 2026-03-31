@@ -1,0 +1,8 @@
+jupyter
+nbformat
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+PyPDF2
