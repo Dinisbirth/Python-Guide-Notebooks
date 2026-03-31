@@ -1,98 +1,25 @@
-## Week 01
+# References
 
-- Folder: `references/week_01`
-- Original materials:
-- Week 1.pptx
-- CT7201 - Python in Jupyter Tutorial Lab.pdf
-- Student work:
-- My very First notebook.ipynb
-- Jupyter Notebook Information .ipynb
-- week 1- Python in Jupyter Tutorial Lab.ipynb
+This folder preserves the source material used to build the cleaned repository.
 
-## Week 02
+## Layout
 
-- Folder: `references/week_02`
-- Original materials:
-- Week 2.pptx
-- Student work:
-- Week 2 Class.ipynb
-- week 2 lecture tasks .ipynb
+- `course_materials/`: lecture slides, PDFs, starter files, and extracted text
+- `student_work/`: original student notebooks and extracted text snapshots
 
-## Week 03
+## Course Materials Structure
 
-- Folder: `references/week_03`
-- Original materials:
-- Week 3 (1).pptx
+- `week_01` to `week_07`: early course teaching materials
+- `topic_data_analysis`: later analysis material
+- `topic_data_handling`: later preprocessing and data handling material
+- `topic_machine_learning`: later ML material
 
-## Week 04
+## Student Work Structure
 
-- Folder: `references/week_04`
-- Original materials:
-- Week 4.pptx
+- `week_01`
+- `week_02`
+- `week_11`
 
-## Week 05
+## Important Note
 
-- Folder: `references/week_05`
-- Original materials:
-- Week 5 - Object Oriented.pptx
-
-## Week 06
-
-- Folder: `references/week_06`
-- Original materials:
-- Week 6 - Batteries Included - Python Modules, Conda and Pip.pptx
-
-## Week 07
-
-- Folder: `references/week_07`
-- Original materials:
-- Week 7 - - Other Editors, Python Files, Your own Modules, and Third Party Modules.pptx
-- stats.py
-- housing.csv
-
-## Week 08
-
-- Folder: `references/week_08`
-- Original materials:
-- Data Analysis.pptx
-- Sample_Data_Analysis.pdf
-- housing.csv
-- california_housing_train (1).csv
-- california_housing_test.csv
-
-## Week 09
-
-- Folder: `references/week_09`
-- Original materials:
-- CT4103 - Data Handling(1).pdf
-- housing.csv
-
-## Week 10
-
-- Folder: `references/week_10`
-- Original materials:
-- Data Handling Session new.pptx
-- Data_Handling_Practical_Lab_.pdf
-- housing.csv
-
-## Week 11
-
-- Folder: `references/week_11`
-- Original materials:
-- Intro to ML.pptx
-- housing.csv
-- framingham.csv
-- Student work:
-- week 11.ipynb
-
-## Week 12
-
-- Folder: `references/week_12`
-- Original materials:
-- Sample_Data_Analysis.pdf
-- Data Analysis.pptx
-- CT4103 - Data Handling(1).pdf
-- Data Handling Session new.pptx
-- Intro to ML.pptx
-- housing.csv
-- framingham.csv
+Datasets are not repeated throughout this archive anymore. Use the canonical copies under `data/`.

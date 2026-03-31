@@ -1,22 +1,23 @@
 # CT7201 Python Guide Notebooks
 
-This repository is a cleaned, structured, GitHub-ready study guide built from the supplied course slides, PDFs, datasets, starter code, and existing student notebooks for Python Notebooks and Scripting.
+This repository is a cleaned, GitHub-ready study guide built from the supplied lecture slides, PDFs, datasets, starter code, and student notebooks for Python Notebooks and Scripting.
 
-It is organised as a complete course repository rather than a loose collection of files:
-- `weeks/` contains the final week-by-week learning folders
-- `data/` contains the datasets used in the later analysis and ML material
-- `references/` preserves the original source materials and extracted text snapshots
-- `src/` contains reusable Python helpers
-- `notes/` contains roadmap and dataset notes
+## Repository Structure
 
-## What This Repository Includes
+- `weeks/`: the main learning path, one folder per week
+- `docs/`: roadmap and dataset notes
+- `data/`: canonical dataset copies used by the notebooks
+- `src/`: reusable Python helpers
+- `references/course_materials/`: archived lecture materials and extracted text
+- `references/student_work/`: archived student notebooks and extracted text
+
+## What Is Included
 
 - 12 structured weekly folders
-- A `summary.md`, `tasks.md`, and `notebook.ipynb` for each week
-- Executed notebooks that were checked locally
-- A cleaned `Stats` helper module for descriptive statistics
-- Housing and Framingham datasets copied into a consistent project layout
-- Original course materials preserved for traceability
+- a `summary.md`, `tasks.md`, and `notebook.ipynb` in every week
+- executed notebooks checked locally for runtime errors
+- a cleaned `Stats` helper in `src/stats.py`
+- de-duplicated source archives instead of repeated copies across multiple week folders
 
 ## Repository Layout
 
@@ -24,9 +25,10 @@ It is organised as a complete course repository rather than a loose collection o
 ct7201-guide/
 |-- README.md
 |-- ATTRIBUTION.md
+|-- .gitattributes
 |-- requirements.txt
 |-- data/
-|-- notes/
+|-- docs/
 |-- references/
 |-- src/
 `-- weeks/
@@ -52,13 +54,13 @@ ct7201-guide/
 ## Quick Start
 
 1. Create and activate a Python environment.
-2. Install dependencies:
+2. Install the requirements:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Open Jupyter from the repository root:
+3. Start Jupyter from the repository root:
 
 ```bash
 jupyter lab
@@ -66,33 +68,35 @@ jupyter lab
 
 4. Work through the folders in `weeks/` in order.
 
-## Key Folders
+## Folder Notes
 
 ### `weeks/`
-Each week folder contains:
+Each week contains:
 - `summary.md`
 - `tasks.md`
 - `notebook.ipynb`
 
+### `docs/`
+Contains:
+- `course_roadmap.md`
+- `housing_dataset.md`
+- `framingham_dataset.md`
+
 ### `data/`
-Datasets used in the later analytical and machine-learning sections:
-- California housing
-- Framingham cardiovascular dataset
+This is the canonical location for datasets used by the notebooks. The reference archive no longer repeats those dataset files week after week.
 
 ### `references/`
-Preserved copies of:
-- original PowerPoint files
-- original PDF materials
-- source notebook references
-- extracted text snapshots used to structure the final guide
+The reference archive is split into:
+- `course_materials/` for lecture and tutorial source files
+- `student_work/` for the original notebook work that informed the cleaned version
 
 ## Important Note On Weeks 8-12
 
-The later supplied files were mostly topic-based (`Data Analysis`, `Data Handling`, `Intro to ML`) rather than clearly named by exact week. Weeks 8-12 in this repository were therefore organised by topic progression inferred from the source materials so the course remains coherent from start to finish.
+The later supplied files were mostly topic-based (`Data Analysis`, `Data Handling`, `Intro to ML`) rather than clearly labelled by exact week number. Weeks 8-12 in this repository were therefore organised by topic progression inferred from those materials so the course remains coherent from start to finish.
 
 ## Verification
 
-The generated notebooks were executed locally after creation to check for broken imports, path issues, and notebook cell errors.
+The generated notebooks were executed locally after creation and checked for notebook cell errors.
 
 ## Attribution
 

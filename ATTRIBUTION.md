@@ -1,53 +1,32 @@
-## Week 01 - Jupyter and Python Fundamentals
-- Week 1.pptx
-- CT7201 - Python in Jupyter Tutorial Lab.pdf
+# Attribution
 
-## Week 02 - Functions, Control Flow, and Loops
-- Week 2.pptx
+This repository reorganises supplied course materials and student work into a cleaner study repository.
 
-## Week 03 - Collections and Strings
-- Week 3 (1).pptx
+## Course Materials Included
 
-## Week 04 - Dictionaries and Nested Data
-- Week 4.pptx
+- Week 1 slides and Jupyter tutorial lab
+- Week 2 slides
+- Week 3 slides
+- Week 4 slides
+- Week 5 object-oriented programming slides
+- Week 6 modules, conda, and pip slides
+- Week 7 Python files and third-party libraries slides
+- Data Analysis slides and sample analysis PDF
+- Data Handling PDF, session slides, and practical lab PDF
+- Intro to ML slides
+- Original `stats.py` starter file
 
-## Week 05 - Input, While Loops, and OOP
-- Week 5 - Object Oriented.pptx
+## Student Work Included For Reference
 
-## Week 06 - Standard Library and Environments
-- Week 6 - Batteries Included - Python Modules, Conda and Pip.pptx
+- `Jupyter Notebook Information .ipynb`
+- `My very First notebook.ipynb`
+- `week 1- Python in Jupyter Tutorial Lab.ipynb`
+- `Week 2 Class.ipynb`
+- `week 2 lecture tasks .ipynb`
+- `week 11.ipynb`
 
-## Week 07 - Scripts, Modules, and Third-Party Libraries
-- Week 7 - - Other Editors, Python Files, Your own Modules, and Third Party Modules.pptx
-- stats.py
-- housing.csv
+## Notes
 
-## Week 08 - Data Analysis Basics
-- Data Analysis.pptx
-- Sample_Data_Analysis.pdf
-- housing.csv
-- california_housing_train (1).csv
-- california_housing_test.csv
-
-## Week 09 - Correlation, Feature Engineering, and Imputation
-- CT4103 - Data Handling(1).pdf
-- housing.csv
-
-## Week 10 - Data Preprocessing Pipelines
-- Data Handling Session new.pptx
-- Data_Handling_Practical_Lab_.pdf
-- housing.csv
-
-## Week 11 - Introduction to Machine Learning
-- Intro to ML.pptx
-- housing.csv
-- framingham.csv
-
-## Week 12 - Applied Machine Learning Capstone
-- Sample_Data_Analysis.pdf
-- Data Analysis.pptx
-- CT4103 - Data Handling(1).pdf
-- Data Handling Session new.pptx
-- Intro to ML.pptx
-- housing.csv
-- framingham.csv
+- Datasets used by the final notebooks live under `data/`.
+- Archived teaching materials and extracted text live under `references/`.
+- The final week structure for weeks 8-12 is inferred from the supplied topic-based later materials.
